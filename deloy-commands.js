@@ -3,7 +3,7 @@ const {SlashCommandBuilder, Routes} = require('discord.js');
 const { REST } = require('@discordjs/rest')
 
 const commands =[
-   new SlashCommandBuilder().setName('myre').setDescription('Replays with pong!'),
+   new SlashCommandBuilder().setName('myre').setDescription('Replays with oombittaram!'),
 ].map(command => command.toJSON());
 
 const rest =new REST({version : '10'}).setToken(process.env.TOKEN)
